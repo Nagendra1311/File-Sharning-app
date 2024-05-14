@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: black;
+  display: flex;
+
+}
+
+img {
+  width: 30%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 600px;
+  height: 400px;
+  background: #fff;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: #088178;
+  font-size: 40px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #088178;
+  border: 1px solid #088178;
+  border-radius: 5px;
+}
+
+a {
+  font-size: 18px;
+}
